@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general {
+    width: 100%;
+    display: flex;
+    justify-content: center;;
+}
+
+.big-orange {
+    background-color: orangered;
+    width: 250px;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.small-black {
+    text-align: center;
+    border: none;
+    background: none;
+}
+
+.big-orange a {
+    text-decoration: none;
+}
+
+.big-orange a:hover {
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+    background-color: white;
+}
+.big-orange .small-black:hover {
+    /* background-color: white; */
+    /* width: 80%; */
+    /* height: 80%; */
+    /* padding: 50px; */
+    /* border-radius: 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+
+}
